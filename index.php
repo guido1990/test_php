@@ -50,10 +50,10 @@ TR.impair {
 <body>
   <?php
    // Connexion à la base de données MariaDB
-   $server = "localhost";
+   $server = "10.0.2.4";
    $dbname = "db_ypsolap";
-   $user = "userdb";
-   $pass = "Password1234";
+   $user = "mysqladminun";
+   $pass = "mYsq1_3dFewhb";
 
    try {
    //On se connecte à la BDD
