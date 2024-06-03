@@ -51,7 +51,7 @@ TR.impair {
   <?php
    // Connexion à la base de données MariaDB
    $server = '10.0.2.4';
-   $dbname = 'db_ysolap';
+   $dbname = 'db_ypsolap';
    $user = 'mysqladminun';
    $pass = 'mYsq1_3dFewhb';
 
