@@ -48,12 +48,13 @@ TR.impair {
 </style>
 </head>
 <body>
-  <?php
+  <?php	
    // Connexion à la base de données MariaDB
    $server = '10.0.2.4';
    $dbname = 'db_ypsolap';
    $user = 'mysqladminun';
    $pass = 'mYsq1_3dFewhb';
+   echo 'db_name:' getenv("DB_NAME") 
 
    try {
    //On se connecte à la BDD
