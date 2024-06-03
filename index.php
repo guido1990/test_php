@@ -50,10 +50,10 @@ TR.impair {
 <body>
   <?php
    // Connexion à la base de données MariaDB
-   $server = $_ENV['SERVER'];
-   $dbname = $_ENV['DB_NAME'];
-   $user = $_ENV['USER'];
-   $pass = $_ENV['PASS'];
+   $server = getenv("SERVER")];
+   $dbname = getenv("DB_NAME");
+   $user = getenv("USER");
+   $pass = getenv("PASS");
 
    try {
    //On se connecte à la BDD
@@ -152,9 +152,6 @@ TR.impair {
 		    echo "</div>";
 		  echo "</form>";
   } // Fin du switch
-$myVariable = $_ENV['DB_NAME'];
-
-echo "The value of MY_VARIABLE is: " . $myVariable;
   ?>
 <br />
   <p>Projet Fil Rouge N°2 - Application Web [linux/nginx/mariadb/php] </p>
