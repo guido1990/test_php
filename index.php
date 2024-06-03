@@ -54,7 +54,10 @@ TR.impair {
    $dbname = 'db_ypsolap';
    $user = 'mysqladminun';
    $pass = 'mYsq1_3dFewhb';
-   $database = getenv('APPSETTING_USER'); echo $appsetting;
+   $user_test = getenv('APPSETTING_USER'); echo $user_test;
+   $pass_test = getenv('APPSETTING_PASS'); echo $pass_test;
+   $db_test = getenv('APPSETTING_DB_NAME'); echo $db_test;
+   $server_test = getenv('APPSETTING_SERVER'); echo $server_test;
    try {
    //On se connecte à la BDD
    $dbco = new PDO("mysql:host=$server;dbname=$dbname",$user,$pass);
