@@ -154,7 +154,7 @@ TR.impair {
   } // Fin du switch
   ?>
 <br />
-  <p>Projet Fil Rouge N°2 - Appplication Web [linux/nginx/mariadb/php] </p>
+  <p>Projet Fil Rouge N°2 - Application Web [linux/nginx/mariadb/php] </p>
   <p>Tuteur du projet : Emir STAALI</p>
   <p><em>IForm Academy - 2024</em></p>
 
