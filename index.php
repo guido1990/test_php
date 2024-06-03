@@ -50,14 +50,10 @@ TR.impair {
 <body>
   <?php	
    // Connexion à la base de données MariaDB
-   $server = '10.0.2.4';
+   $server = getenv('APPSETTING_SERVER');
    $dbname = getenv('APPSETTING_DB_NAME');
-   $user = 'mysqladminun';
-   $pass = 'mYsq1_3dFewhb';
-   $user_test = getenv('APPSETTING_USER'); echo $user_test;
-   $pass_test = getenv('APPSETTING_PASS'); echo $pass_test;
-   $db_test = getenv('APPSETTING_DB_NAME'); echo $db_test;
-   $server_test = getenv('APPSETTING_SERVER'); echo $server_test;
+   $user = getenv('APPSETTING_USER');
+   $pass = getenv('APPSETTING_PASS';
    try {
    //On se connecte à la BDD
    $dbco = new PDO("mysql:host=$server;dbname=$dbname",$user,$pass);
