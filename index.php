@@ -152,6 +152,9 @@ TR.impair {
 		    echo "</div>";
 		  echo "</form>";
   } // Fin du switch
+$myVariable = $_ENV['DB_NAME'];
+
+echo "The value of MY_VARIABLE is: " . $myVariable;
   ?>
 <br />
   <p>Projet Fil Rouge N°2 - Application Web [linux/nginx/mariadb/php] </p>
