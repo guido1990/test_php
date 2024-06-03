@@ -51,11 +51,11 @@ TR.impair {
   <?php	
    // Connexion à la base de données MariaDB
    $server = '10.0.2.4';
-   $dbname = 'db_ypsolap';
+   $dbname =  getenv('APPSETTING_DB_NAME');
    $user = getenv('APPSETTING_USER');
-   $pass = 'mYsq1_3dFewhb';
+   $pass = getenv('APPSETTING_PASS');
    // $user_test = getenv('APPSETTING_USER'); echo $user_test;
-   $pass_test = getenv('APPSETTING_PASS'); echo $pass_test;
+   // $pass_test = getenv('APPSETTING_PASS'); echo $pass_test;
    try {
    //On se connecte à la BDD
    $dbco = new PDO("mysql:host=$server;dbname=$dbname",$user,$pass);
