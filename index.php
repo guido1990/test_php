@@ -50,7 +50,7 @@ TR.impair {
 <body>
   <?php
    // Connexion à la base de données MariaDB
-   $server = getenv("SERVER")];
+   $server = getenv("SERVER");
    $dbname = getenv("DB_NAME");
    $user = getenv("USER");
    $pass = getenv("PASS");
