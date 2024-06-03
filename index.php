@@ -54,7 +54,6 @@ TR.impair {
    $dbname = 'db_ypsolap';
    $user = 'mysqladminun';
    $pass = 'mYsq1_3dFewhb';
-   echo 'db_name:' getenv("DB_NAME") 
 
    try {
    //On se connecte à la BDD
